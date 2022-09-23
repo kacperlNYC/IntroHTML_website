@@ -20,12 +20,22 @@ header a {
     color: white;
     font-size: 35px;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+header a:hover {
+    color: gainsboro;
 }
 main {
     margin: 40px;
 }
 img {
     max-width: 500px;
+    border-radius: 20px;
+}
+
+video {
+    max-width: 750px;
     border-radius: 20px;
 }
 .places {
@@ -68,4 +78,33 @@ img {
 .center {
     display: flex;
     align-items: center;
+}
+
+.audio-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+th {
+    border:2px solid white;
+}
+
+td {
+    border:1px solid white;
+}
+
+
+td {
+    padding: 10px
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 }
