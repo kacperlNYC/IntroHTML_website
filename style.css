@@ -17,14 +17,19 @@ header {
 }
 
 header a {
-    color: white;
     font-size: 35px;
+    color: white;
     text-decoration: none;
     transition: 0.4s;
 }
 
-header a:hover {
-    color: gainsboro;
+a {
+    color: white;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgb(176, 174, 174);
 }
 main {
     margin: 40px;
@@ -67,6 +72,11 @@ video {
     max-height: 400px;
 }
 
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
 .padding-right {
     padding-right: 20px;
 }
@@ -83,6 +93,7 @@ video {
 .audio-container {
     width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -107,4 +118,8 @@ td {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+}
+
+li p {
+    margin-bottom: 5px;
 }
